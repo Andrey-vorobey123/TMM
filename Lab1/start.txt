@@ -1,0 +1,5 @@
+-> C:/ProgramData/Anaconda3/Scripts/activate
+
+-> conda activate base
+
+-> jupyter notebook
