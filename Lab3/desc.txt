@@ -1,0 +1,5 @@
+data - все данные + Q
+data_clear - данные без quality, но с Q 
+data_clear_copy - копия предыдущего
+data_clear_x - данные без целевого признака
+data_clear_y - целевой признака
