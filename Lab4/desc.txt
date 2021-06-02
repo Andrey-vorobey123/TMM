@@ -1,0 +1,29 @@
+data - все данные + Q
+data_clear - данные без quality, но с Q 
+data_clear_copy - копия предыдущего
+data_clear_x - данные без целевого признака
+data_clear_y - целевой признака
+-----------------------------------------------------------------------------
+ЛОГИСТИЧЕСКАЯ РЕГРЕССИЯ
+model_logistic_for_selection - модель для подбора гиперпараметров
+distributions - набор параметров для подбора гиперпараметров
+logistic_selection - подбор гиперпараметров
+logistic_selection_result - .fit 
+model_logistic_optimal - оптимальная модель после подбора
+pred_test_from_logistic_optimal - предсказанные значения тестовой выборки
+------------------------------------------------------------------------------
+SVC
+model_svm_for_selection - модель для подбора гиперпараметров
+distributions2 - набор параметров
+svm_selection - подбор гиперпараметров
+svm_selection_result - .fit
+model_svm_optimal - оптимальная svc модель
+pred_test_from_svm_optimal - предсказанные значения тестовой выборки
+------------------------------------------------------------------------------
+TREE
+model_tree - просто дерево
+params - параметры для подбора
+tree_selection - подбор
+model_tree_optimal - оптимальная модель
+pred_test_from_tree - предсказанное на просто дереве
+pred_test_from_tree_optimal - на оптимальной
